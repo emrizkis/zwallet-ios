@@ -1,0 +1,603 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		B1140E7827FF226A0045664A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1140E7727FF226A0045664A /* AppDelegate.swift */; };
+		B1140E7A27FF226A0045664A /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1140E7927FF226A0045664A /* SceneDelegate.swift */; };
+		B1140E7C27FF226A0045664A /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1140E7B27FF226A0045664A /* ViewController.swift */; };
+		B1140E7F27FF226A0045664A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B1140E7D27FF226A0045664A /* Main.storyboard */; };
+		B1140E8127FF226B0045664A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B1140E8027FF226B0045664A /* Assets.xcassets */; };
+		B1140E8427FF226B0045664A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B1140E8227FF226B0045664A /* LaunchScreen.storyboard */; };
+		B1140E8F27FF226B0045664A /* zwalletTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1140E8E27FF226B0045664A /* zwalletTests.swift */; };
+		B1140E9927FF226B0045664A /* zwalletUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1140E9827FF226B0045664A /* zwalletUITests.swift */; };
+		B1140E9B27FF226B0045664A /* zwalletUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1140E9A27FF226B0045664A /* zwalletUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		B1140E8B27FF226B0045664A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B1140E6C27FF226A0045664A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B1140E7327FF226A0045664A;
+			remoteInfo = zwallet;
+		};
+		B1140E9527FF226B0045664A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B1140E6C27FF226A0045664A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B1140E7327FF226A0045664A;
+			remoteInfo = zwallet;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		B1140E7427FF226A0045664A /* zwallet.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = zwallet.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		B1140E7727FF226A0045664A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		B1140E7927FF226A0045664A /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		B1140E7B27FF226A0045664A /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		B1140E7E27FF226A0045664A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		B1140E8027FF226B0045664A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		B1140E8327FF226B0045664A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		B1140E8527FF226B0045664A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B1140E8A27FF226B0045664A /* zwalletTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = zwalletTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		B1140E8E27FF226B0045664A /* zwalletTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = zwalletTests.swift; sourceTree = "<group>"; };
+		B1140E9427FF226B0045664A /* zwalletUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = zwalletUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		B1140E9827FF226B0045664A /* zwalletUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = zwalletUITests.swift; sourceTree = "<group>"; };
+		B1140E9A27FF226B0045664A /* zwalletUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = zwalletUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		B1140E7127FF226A0045664A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B1140E8727FF226B0045664A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B1140E9127FF226B0045664A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		B1140E6B27FF226A0045664A = {
+			isa = PBXGroup;
+			children = (
+				B1140E7627FF226A0045664A /* zwallet */,
+				B1140E8D27FF226B0045664A /* zwalletTests */,
+				B1140E9727FF226B0045664A /* zwalletUITests */,
+				B1140E7527FF226A0045664A /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		B1140E7527FF226A0045664A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				B1140E7427FF226A0045664A /* zwallet.app */,
+				B1140E8A27FF226B0045664A /* zwalletTests.xctest */,
+				B1140E9427FF226B0045664A /* zwalletUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		B1140E7627FF226A0045664A /* zwallet */ = {
+			isa = PBXGroup;
+			children = (
+				B1140E7727FF226A0045664A /* AppDelegate.swift */,
+				B1140E7927FF226A0045664A /* SceneDelegate.swift */,
+				B1140E7B27FF226A0045664A /* ViewController.swift */,
+				B1140E7D27FF226A0045664A /* Main.storyboard */,
+				B1140E8027FF226B0045664A /* Assets.xcassets */,
+				B1140E8227FF226B0045664A /* LaunchScreen.storyboard */,
+				B1140E8527FF226B0045664A /* Info.plist */,
+			);
+			path = zwallet;
+			sourceTree = "<group>";
+		};
+		B1140E8D27FF226B0045664A /* zwalletTests */ = {
+			isa = PBXGroup;
+			children = (
+				B1140E8E27FF226B0045664A /* zwalletTests.swift */,
+			);
+			path = zwalletTests;
+			sourceTree = "<group>";
+		};
+		B1140E9727FF226B0045664A /* zwalletUITests */ = {
+			isa = PBXGroup;
+			children = (
+				B1140E9827FF226B0045664A /* zwalletUITests.swift */,
+				B1140E9A27FF226B0045664A /* zwalletUITestsLaunchTests.swift */,
+			);
+			path = zwalletUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		B1140E7327FF226A0045664A /* zwallet */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B1140E9E27FF226B0045664A /* Build configuration list for PBXNativeTarget "zwallet" */;
+			buildPhases = (
+				B1140E7027FF226A0045664A /* Sources */,
+				B1140E7127FF226A0045664A /* Frameworks */,
+				B1140E7227FF226A0045664A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = zwallet;
+			productName = zwallet;
+			productReference = B1140E7427FF226A0045664A /* zwallet.app */;
+			productType = "com.apple.product-type.application";
+		};
+		B1140E8927FF226B0045664A /* zwalletTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B1140EA127FF226B0045664A /* Build configuration list for PBXNativeTarget "zwalletTests" */;
+			buildPhases = (
+				B1140E8627FF226B0045664A /* Sources */,
+				B1140E8727FF226B0045664A /* Frameworks */,
+				B1140E8827FF226B0045664A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B1140E8C27FF226B0045664A /* PBXTargetDependency */,
+			);
+			name = zwalletTests;
+			productName = zwalletTests;
+			productReference = B1140E8A27FF226B0045664A /* zwalletTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		B1140E9327FF226B0045664A /* zwalletUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B1140EA427FF226B0045664A /* Build configuration list for PBXNativeTarget "zwalletUITests" */;
+			buildPhases = (
+				B1140E9027FF226B0045664A /* Sources */,
+				B1140E9127FF226B0045664A /* Frameworks */,
+				B1140E9227FF226B0045664A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B1140E9627FF226B0045664A /* PBXTargetDependency */,
+			);
+			name = zwalletUITests;
+			productName = zwalletUITests;
+			productReference = B1140E9427FF226B0045664A /* zwalletUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		B1140E6C27FF226A0045664A /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1320;
+				LastUpgradeCheck = 1320;
+				TargetAttributes = {
+					B1140E7327FF226A0045664A = {
+						CreatedOnToolsVersion = 13.2.1;
+					};
+					B1140E8927FF226B0045664A = {
+						CreatedOnToolsVersion = 13.2.1;
+						TestTargetID = B1140E7327FF226A0045664A;
+					};
+					B1140E9327FF226B0045664A = {
+						CreatedOnToolsVersion = 13.2.1;
+						TestTargetID = B1140E7327FF226A0045664A;
+					};
+				};
+			};
+			buildConfigurationList = B1140E6F27FF226A0045664A /* Build configuration list for PBXProject "zwallet" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = B1140E6B27FF226A0045664A;
+			productRefGroup = B1140E7527FF226A0045664A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				B1140E7327FF226A0045664A /* zwallet */,
+				B1140E8927FF226B0045664A /* zwalletTests */,
+				B1140E9327FF226B0045664A /* zwalletUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		B1140E7227FF226A0045664A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B1140E8427FF226B0045664A /* LaunchScreen.storyboard in Resources */,
+				B1140E8127FF226B0045664A /* Assets.xcassets in Resources */,
+				B1140E7F27FF226A0045664A /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B1140E8827FF226B0045664A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B1140E9227FF226B0045664A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		B1140E7027FF226A0045664A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B1140E7C27FF226A0045664A /* ViewController.swift in Sources */,
+				B1140E7827FF226A0045664A /* AppDelegate.swift in Sources */,
+				B1140E7A27FF226A0045664A /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B1140E8627FF226B0045664A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B1140E8F27FF226B0045664A /* zwalletTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B1140E9027FF226B0045664A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B1140E9B27FF226B0045664A /* zwalletUITestsLaunchTests.swift in Sources */,
+				B1140E9927FF226B0045664A /* zwalletUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		B1140E8C27FF226B0045664A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = B1140E7327FF226A0045664A /* zwallet */;
+			targetProxy = B1140E8B27FF226B0045664A /* PBXContainerItemProxy */;
+		};
+		B1140E9627FF226B0045664A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = B1140E7327FF226A0045664A /* zwallet */;
+			targetProxy = B1140E9527FF226B0045664A /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		B1140E7D27FF226A0045664A /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B1140E7E27FF226A0045664A /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		B1140E8227FF226B0045664A /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B1140E8327FF226B0045664A /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		B1140E9C27FF226B0045664A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		B1140E9D27FF226B0045664A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		B1140E9F27FF226B0045664A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = zwallet/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.emrizkis.zwallet;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		B1140EA027FF226B0045664A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = zwallet/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.emrizkis.zwallet;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		B1140EA227FF226B0045664A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.emrizkis.zwalletTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/zwallet.app/zwallet";
+			};
+			name = Debug;
+		};
+		B1140EA327FF226B0045664A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.emrizkis.zwalletTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/zwallet.app/zwallet";
+			};
+			name = Release;
+		};
+		B1140EA527FF226B0045664A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.emrizkis.zwalletUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = zwallet;
+			};
+			name = Debug;
+		};
+		B1140EA627FF226B0045664A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.emrizkis.zwalletUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = zwallet;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		B1140E6F27FF226A0045664A /* Build configuration list for PBXProject "zwallet" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B1140E9C27FF226B0045664A /* Debug */,
+				B1140E9D27FF226B0045664A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B1140E9E27FF226B0045664A /* Build configuration list for PBXNativeTarget "zwallet" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B1140E9F27FF226B0045664A /* Debug */,
+				B1140EA027FF226B0045664A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B1140EA127FF226B0045664A /* Build configuration list for PBXNativeTarget "zwalletTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B1140EA227FF226B0045664A /* Debug */,
+				B1140EA327FF226B0045664A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B1140EA427FF226B0045664A /* Build configuration list for PBXNativeTarget "zwalletUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B1140EA527FF226B0045664A /* Debug */,
+				B1140EA627FF226B0045664A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = B1140E6C27FF226A0045664A /* Project object */;
+}
