@@ -16,6 +16,13 @@
 		B1140E8F27FF226B0045664A /* zwalletTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1140E8E27FF226B0045664A /* zwalletTests.swift */; };
 		B1140E9927FF226B0045664A /* zwalletUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1140E9827FF226B0045664A /* zwalletUITests.swift */; };
 		B1140E9B27FF226B0045664A /* zwalletUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1140E9A27FF226B0045664A /* zwalletUITestsLaunchTests.swift */; };
+		B1140EAE27FF23550045664A /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1140EAC27FF23550045664A /* LoginViewController.swift */; };
+		B1140EAF27FF23550045664A /* LoginViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = B1140EAD27FF23550045664A /* LoginViewController.xib */; };
+		B1140EB927FF36150045664A /* DesignableUITextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1140EB827FF36150045664A /* DesignableUITextField.swift */; };
+		B1140ECA27FF48BF0045664A /* OtpViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1140EC827FF48BF0045664A /* OtpViewController.swift */; };
+		B1140ECB27FF48BF0045664A /* OtpViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = B1140EC927FF48BF0045664A /* OtpViewController.xib */; };
+		B1140ECE27FF495A0045664A /* RegisterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1140ECC27FF495A0045664A /* RegisterViewController.swift */; };
+		B1140ECF27FF495A0045664A /* RegisterViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = B1140ECD27FF495A0045664A /* RegisterViewController.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +56,13 @@
 		B1140E9427FF226B0045664A /* zwalletUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = zwalletUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		B1140E9827FF226B0045664A /* zwalletUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = zwalletUITests.swift; sourceTree = "<group>"; };
 		B1140E9A27FF226B0045664A /* zwalletUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = zwalletUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		B1140EAC27FF23550045664A /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		B1140EAD27FF23550045664A /* LoginViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = LoginViewController.xib; sourceTree = "<group>"; };
+		B1140EB827FF36150045664A /* DesignableUITextField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DesignableUITextField.swift; sourceTree = "<group>"; };
+		B1140EC827FF48BF0045664A /* OtpViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OtpViewController.swift; sourceTree = "<group>"; };
+		B1140EC927FF48BF0045664A /* OtpViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = OtpViewController.xib; sourceTree = "<group>"; };
+		B1140ECC27FF495A0045664A /* RegisterViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegisterViewController.swift; sourceTree = "<group>"; };
+		B1140ECD27FF495A0045664A /* RegisterViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = RegisterViewController.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,6 +113,9 @@
 		B1140E7627FF226A0045664A /* zwallet */ = {
 			isa = PBXGroup;
 			children = (
+				B1140EB727FF35F40045664A /* Helper */,
+				B1140EA827FF22B90045664A /* Core */,
+				B1140EA727FF22900045664A /* Module */,
 				B1140E7727FF226A0045664A /* AppDelegate.swift */,
 				B1140E7927FF226A0045664A /* SceneDelegate.swift */,
 				B1140E7B27FF226A0045664A /* ViewController.swift */,
@@ -125,6 +142,154 @@
 				B1140E9A27FF226B0045664A /* zwalletUITestsLaunchTests.swift */,
 			);
 			path = zwalletUITests;
+			sourceTree = "<group>";
+		};
+		B1140EA727FF22900045664A /* Module */ = {
+			isa = PBXGroup;
+			children = (
+				B1140ED627FF5BD50045664A /* TransferModule */,
+				B1140EC027FF47E10045664A /* PinModule */,
+				B1140EBA27FF3EC80045664A /* OtpModule */,
+				B1140EB027FF32920045664A /* RegisterModule */,
+				B1140EAA27FF22FD0045664A /* LoginModule */,
+			);
+			path = Module;
+			sourceTree = "<group>";
+		};
+		B1140EA827FF22B90045664A /* Core */ = {
+			isa = PBXGroup;
+			children = (
+				B1140EA927FF22ED0045664A /* Network */,
+			);
+			path = Core;
+			sourceTree = "<group>";
+		};
+		B1140EA927FF22ED0045664A /* Network */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Network;
+			sourceTree = "<group>";
+		};
+		B1140EAA27FF22FD0045664A /* LoginModule */ = {
+			isa = PBXGroup;
+			children = (
+				B1140EB127FF32A70045664A /* View */,
+			);
+			path = LoginModule;
+			sourceTree = "<group>";
+		};
+		B1140EB027FF32920045664A /* RegisterModule */ = {
+			isa = PBXGroup;
+			children = (
+				B1140EB227FF32C00045664A /* View */,
+			);
+			path = RegisterModule;
+			sourceTree = "<group>";
+		};
+		B1140EB127FF32A70045664A /* View */ = {
+			isa = PBXGroup;
+			children = (
+				B1140EAC27FF23550045664A /* LoginViewController.swift */,
+				B1140EAD27FF23550045664A /* LoginViewController.xib */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		B1140EB227FF32C00045664A /* View */ = {
+			isa = PBXGroup;
+			children = (
+				B1140ECC27FF495A0045664A /* RegisterViewController.swift */,
+				B1140ECD27FF495A0045664A /* RegisterViewController.xib */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		B1140EB727FF35F40045664A /* Helper */ = {
+			isa = PBXGroup;
+			children = (
+				B1140EB827FF36150045664A /* DesignableUITextField.swift */,
+			);
+			path = Helper;
+			sourceTree = "<group>";
+		};
+		B1140EBA27FF3EC80045664A /* OtpModule */ = {
+			isa = PBXGroup;
+			children = (
+				B1140EBB27FF3ED20045664A /* View */,
+			);
+			path = OtpModule;
+			sourceTree = "<group>";
+		};
+		B1140EBB27FF3ED20045664A /* View */ = {
+			isa = PBXGroup;
+			children = (
+				B1140EC827FF48BF0045664A /* OtpViewController.swift */,
+				B1140EC927FF48BF0045664A /* OtpViewController.xib */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		B1140EC027FF47E10045664A /* PinModule */ = {
+			isa = PBXGroup;
+			children = (
+				B1140ED227FF5B710045664A /* InputPin */,
+				B1140ED127FF5B5E0045664A /* ChangePin */,
+				B1140ED027FF5B570045664A /* SetPin */,
+			);
+			path = PinModule;
+			sourceTree = "<group>";
+		};
+		B1140ED027FF5B570045664A /* SetPin */ = {
+			isa = PBXGroup;
+			children = (
+				B1140ED427FF5B930045664A /* View */,
+			);
+			path = SetPin;
+			sourceTree = "<group>";
+		};
+		B1140ED127FF5B5E0045664A /* ChangePin */ = {
+			isa = PBXGroup;
+			children = (
+				B1140ED527FF5B9B0045664A /* View */,
+			);
+			path = ChangePin;
+			sourceTree = "<group>";
+		};
+		B1140ED227FF5B710045664A /* InputPin */ = {
+			isa = PBXGroup;
+			children = (
+				B1140ED327FF5B7E0045664A /* View */,
+			);
+			path = InputPin;
+			sourceTree = "<group>";
+		};
+		B1140ED327FF5B7E0045664A /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		B1140ED427FF5B930045664A /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		B1140ED527FF5B9B0045664A /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		B1140ED627FF5BD50045664A /* TransferModule */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = TransferModule;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -231,9 +396,12 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B1140ECB27FF48BF0045664A /* OtpViewController.xib in Resources */,
+				B1140EAF27FF23550045664A /* LoginViewController.xib in Resources */,
 				B1140E8427FF226B0045664A /* LaunchScreen.storyboard in Resources */,
 				B1140E8127FF226B0045664A /* Assets.xcassets in Resources */,
 				B1140E7F27FF226A0045664A /* Main.storyboard in Resources */,
+				B1140ECF27FF495A0045664A /* RegisterViewController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -258,7 +426,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B1140ECE27FF495A0045664A /* RegisterViewController.swift in Sources */,
+				B1140ECA27FF48BF0045664A /* OtpViewController.swift in Sources */,
+				B1140EAE27FF23550045664A /* LoginViewController.swift in Sources */,
 				B1140E7C27FF226A0045664A /* ViewController.swift in Sources */,
+				B1140EB927FF36150045664A /* DesignableUITextField.swift in Sources */,
 				B1140E7827FF226A0045664A /* AppDelegate.swift in Sources */,
 				B1140E7A27FF226A0045664A /* SceneDelegate.swift in Sources */,
 			);
@@ -443,7 +615,6 @@
 				INFOPLIST_FILE = zwallet/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -470,7 +641,6 @@
 				INFOPLIST_FILE = zwallet/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
