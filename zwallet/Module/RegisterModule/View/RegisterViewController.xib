@@ -137,6 +137,9 @@
                             <buttonConfiguration key="configuration" style="filled" title="Register" cornerStyle="large">
                                 <fontDescription key="titleFontDescription" type="system" pointSize="18"/>
                             </buttonConfiguration>
+                            <connections>
+                                <action selector="submitButton:" destination="-1" eventType="touchDown" id="k7r-n4-SC5"/>
+                            </connections>
                         </button>
                         <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" translatesAutoresizingMaskIntoConstraints="NO" id="8x9-XG-Izn" userLabel="formPassword">
                             <rect key="frame" x="16" y="342.5" width="382" height="32"/>
@@ -225,7 +228,7 @@
             <color red="0.89803921568627454" green="0.89803921568627454" blue="0.89803921568627454" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
         </namedColor>
         <namedColor name="descriptionColor">
-            <color red="0.22745098039215686" green="0.23921568627450981" blue="0.25882352941176473" alpha="0.59999999999999998" colorSpace="custom" customColorSpace="sRGB"/>
+            <color red="0.22745098039215686" green="0.23921568627450981" blue="0.25882352941176473" alpha="0.60000002384185791" colorSpace="custom" customColorSpace="sRGB"/>
         </namedColor>
         <namedColor name="primaryColor">
             <color red="0.38823529411764707" green="0.47450980392156861" blue="0.95686274509803926" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>

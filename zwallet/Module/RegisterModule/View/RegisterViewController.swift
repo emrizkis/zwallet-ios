@@ -8,6 +8,8 @@
 import UIKit
 
 class RegisterViewController: UIViewController {
+    
+    var presenter: LoginRouterImpl?
 
   
     @IBOutlet weak var formWrapper: UIView!
@@ -20,7 +22,10 @@ class RegisterViewController: UIViewController {
         // Do any additional setup after loading the view.
     }
 
-
+    @IBAction func submitButton(_ sender: Any) {
+        
+    }
+    
     /*
     // MARK: - Navigation
 

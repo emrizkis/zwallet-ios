@@ -10,6 +10,20 @@ import UIKit
 class LoginViewController: UIViewController {
 
     @IBOutlet weak var formWrapper: UIView!
+    
+    @IBOutlet weak var emailIcon: UIImageView!
+    @IBOutlet weak var passwordIcon: UIImageView!
+    @IBOutlet weak var togglePassword: UIImageView!
+    
+    
+    @IBOutlet weak var tintEmail: UIView!
+    @IBOutlet weak var tintPassword: UIView!
+    
+    @IBOutlet weak var inputEmail: UITextField!
+    @IBOutlet weak var inputPassword: UITextField!
+    
+    
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         
@@ -19,7 +33,11 @@ class LoginViewController: UIViewController {
         // Do any additional setup after loading the view.
     }
 
-
+    @IBAction func submitButton(_ sender: Any) {
+        
+        
+    }
+    
     /*
     // MARK: - Navigation
 
@@ -30,4 +48,13 @@ class LoginViewController: UIViewController {
     }
     */
 
+}
+
+
+extension LoginViewController: LoginViewProtocol {
+    func showError() {
+//        do something
+    }
+    
+    
 }
